@@ -7,13 +7,18 @@ html {
 .boxes {
   height:20px;
   width:20px;
-  float: left;
+  float: left; 
 }
 
 #wrapper {
   width: 320px;
   margin: auto;
   border: solid purple 5px;
+}
+
+#grid {
+  height:320px;
+  width:320px;
 }
 
 h1 {
