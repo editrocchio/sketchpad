@@ -6,7 +6,8 @@ $(document).ready(function() {
     $("<br>").appendTo("#grid");
   };
   $(".boxes").hover(function(){
-    $(this).css("background-color","red");
+    var randomColorChange =  '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    $(this).css("background-color",randomColorChange);
   });
   $("#reset").click(function() {
     $(".boxes").css("background-color","transparent");
@@ -16,8 +17,6 @@ $(document).ready(function() {
     $(location).attr('href','https://www.youtube.com/watch?v=n4Xp6g-_UUw')
   });
 });
-
-
 
 
 
