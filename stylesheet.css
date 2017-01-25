@@ -7,7 +7,7 @@ html {
 .boxes {
   height:20px;
   width:20px;
-  float: left; 
+  float: left;
 }
 
 #wrapper {
@@ -42,9 +42,13 @@ h1 span {
   position:relative;
   left:18px;
   box-shadow: 10px 10px 5px #011a42;
+  -webkit-box-shadow: 10px 10px 5px #011a42;
+  -moz-box-shadow:10px 10px 5px #011a42;
   margin-bottom:10px;
 }
 
 #schwifty {
   box-shadow: 10px 10px 5px #011a42;
+  -webkit-box-shadow: 10px 10px 5px #011a42;
+  -moz-box-shadow:10px 10px 5px #011a42;
 }
